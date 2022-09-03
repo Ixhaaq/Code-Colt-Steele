@@ -1,0 +1,22 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color:azure;
+    font-size: 0.9rem;
+}
+
+h1{
+    width: 150px;
+    background-color: azure;
+    margin: 0;
+}
+
+button{
+    padding: 10px 20px;
+    color: blueviolet;
+    background-color: aqua;
+    margin: 40px;
+}
+
+/* h1 by defult gets margin */
+

@@ -1,0 +1,120 @@
+*{
+   background-color: #E4DFDA;
+}
+
+button{
+    font-size: 23px;
+    color: #4357AD;
+}
+
+h1,h2{
+    color: #BF0010;
+}
+
+a{
+    color: #4357AD;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#signup{
+    color: #4357AD;
+}
+#login{
+    color: #4357AD;
+}
+
+.tag{
+    background-color:#48A9A6 ;
+    color: #E4DFDA;
+    font-size: 19px;
+}
+
+li a {
+    color: #BF0010;
+}
+
+li{
+    color: #BF0010;
+}
+
+input + button{
+    background-color: cyan;
+}
+
+h2 + button{
+    font-size: 15px;
+    background-color:magenta;
+}
+
+footer a {
+    color: green;
+}
+
+footer > a{
+    color: white;
+}
+
+input[type="text"]{
+    color: #48A9A6;
+}
+
+section.post{
+    background-color: none;
+}
+
+
+a[href*="www.google.com"]{
+    color: black;
+}
+
+.post a:hover{
+    color: #BF0010;
+    text-decoration: underline;
+
+
+}
+
+button:hover{
+    background-color: #BF0010;
+    color: aliceblue;
+}
+
+a:active{
+    color: magenta;
+}
+
+/* checked */
+
+/* .post:nth-of-type(2n){
+    background-color:white ;
+} */
+
+h2::first-letter{
+    font-size: larger;
+    color: black;
+}
+
+section ::selection{
+    background-color: magenta;
+}
+
+
+p::first-line{
+    color: red;
+}
+
+/* cascade therefore css after takes preference including style sheets linked after the first*/
+
+button:hover{
+    background-color: white;
+}
+
+/* more specific things get preference over more general things */
+
+/* ID>CLASS>ELEMENTT */
+
+/* inline styles:styles in html that are set are more specific than IDs */
+
+/* !important, declares css most specific possible thing - an exception that even overrides bootstrap etc */
+

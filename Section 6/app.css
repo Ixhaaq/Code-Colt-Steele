@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(191, 0, 16);
+}
+
+h3 {
+    background-color: aquamarine;
+    color: #bf0010
+}
+
+a { color: green}
+
+button{
+    background-color: black;
+    color:aliceblue
+}
+
+p {
+    background-color: magenta;
+    color: aquamarine
+}
+
+/* semicolon after every property in css */
